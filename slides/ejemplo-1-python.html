@@ -1,0 +1,27 @@
+<h2>Ejemplo 1 - Python</h2>
+
+    <pre><code data-trim>
+        class Cuenta:
+
+        def __init__(self):
+            self._saldo = 0
+
+        def depositar(self, monto):
+            print "Depositando %s" % monto
+            self._saldo = self._saldo + monto
+            return self._saldo
+
+        def extraer(self, monto):
+            print "Extrayendo %s" % monto
+            self._saldo = self._saldo - monto
+            return self._saldo
+
+        def getSaldo(self):
+            return self._saldo
+
+        def imprimirSaldo(self):
+            print "El saldo de la cuenta es de %s" % self._saldo
+
+    </code>
+    </pre>
+    

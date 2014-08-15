@@ -1,0 +1,7 @@
+{
+  "name": "introduccion-al-paradigma-de-objetos",
+  "version": "0.0.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}

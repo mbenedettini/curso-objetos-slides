@@ -1,0 +1,29 @@
+<h2>Ejemplo 1 - PHP</h2>
+
+<p>
+    <pre>
+        <code data-trim>
+class Cuenta {
+    var $saldo = 0;
+
+    public function depositar($monto) {
+        print "Depositando $monto\n";
+        $this->saldo = $this->saldo + $monto;
+        return $this->saldo;
+    }
+
+    public function extraer($monto) {
+        print "Extrayendo $monto\n";
+        $this->saldo = $this->saldo - $monto;
+        return $this->saldo;
+    }
+
+    public function imprimirSaldo() {
+        print "El saldo de la cuenta es de $" . $this->saldo . "\n";
+    }
+
+}
+            
+        </code>
+    </pre>
+</p>

@@ -1,0 +1,27 @@
+<h2>Ejemplo 1 - C#</h2>
+
+<p><pre>
+    <code data-trim>
+   class Cuenta {
+        private double saldo;
+
+        public double depositar(double monto) {
+            Console.WriteLine("Depositando $" + monto);
+            this.saldo = this.saldo + monto;
+            return this.saldo;
+        }
+
+        public double extraer(double monto) {
+            Console.WriteLine("Extrayendo $" + monto);
+            this.saldo = this.saldo - monto;
+            return this.saldo;
+        }
+
+
+        public void imprimirSaldo() {
+            Console.WriteLine("El saldo de la cuenta es de $" + this.saldo);
+        }
+    }
+
+    </code>
+</pre></p>
