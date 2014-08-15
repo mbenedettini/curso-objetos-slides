@@ -3,8 +3,8 @@
     "presentationTitle": "Introducción al Paradigma de Objetos",
     "packageVersion": "0.0.0",
     "useSass": false,
-    "deployToGithubPages": false,
-    "githubUsername": "example_username",
-    "githubRepository": "example_repository"
+    "deployToGithubPages": true,
+    "githubUsername": "mbenedettini",
+    "githubRepository": "curso-objetos-slides"
   }
 }
