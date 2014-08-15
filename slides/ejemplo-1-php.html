@@ -2,7 +2,7 @@
 
 <p>
     <pre>
-        <code data-trim>
+        <code data-trim class="php">
 class Cuenta {
     var $saldo = 0;
 
@@ -23,7 +23,17 @@ class Cuenta {
     }
 
 }
-            
+
+$miCuenta = new Cuenta();
+$miCuenta->depositar(100);
+$miCuenta->imprimirSaldo();
+$miCuenta->depositar(25);
+$miCuenta->imprimirSaldo();
+$miCuenta->extraer(99.50);
+$miCuenta->imprimirSaldo();
+
+
+
         </code>
     </pre>
 </p>
