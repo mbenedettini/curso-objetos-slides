@@ -1,7 +1,7 @@
 
 # Introducción al Paradigma de Objetos
 
-## Noviembre 2014
+## Febrero 2015
 
 ### Educacion IT Rosario
 
